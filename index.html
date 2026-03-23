@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="escuro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinicius Roberto | Portfólio </title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--  MENU  -->
+
+  <header class="header" id="header">
+    <div class="header-inner">
+
+      <!-- Logo -->
+      <a href="#sobre" class="logo">VR<span class="logo-ponto">.</span></a>
+
+      <!-- Botoes do menu  -->
+
+      <nav class="menu" id="menu">
+        <a href="#sobre"     class="menu-link">Sobre</a>
+        <a href="#formacao"  class="menu-link">Formação</a>
+        <a href="#portfolio" class="menu-link">Portfólio</a>
+        <a href="#contato"   class="menu-link">Contato</a>
+      </nav>
+
+      <div class="header-acoes">
+
+        <!-- trocar de tema -->
+        <button class="btn-tema" id="btnTema" title="Alternar tema">
+          <span id="icone-tema">☀️</span>
+        </button>
+
+        <!-- RESPONSIVIDADE -->
+        <!-- menu hambúrguer -->
+        <button class="hamburguer" id="hamburguer" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- RESPONSIVIDADE -->
+    <!-- Menu mobile -->
+    <nav class="menu-mobile" id="menuMobile">
+      <a href="#sobre"     class="menu-mobile-link">Sobre</a>
+      <a href="#formacao"  class="menu-mobile-link">Formação</a>
+      <a href="#portfolio" class="menu-mobile-link">Portfólio</a>
+      <a href="#contato"   class="menu-mobile-link">Contato</a>
+    </nav>
+  </header>
+  <main>
+
+    <!-- SEÇÃO 1 — SOBRE MIM -->
+
+    <section class="secao hero" id="sobre">
+
+      <!-- fundo -->
+       
+
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Texto -->
+          <div class="hero-texto">
+            <p class="subtitulo-topo">Olá, eu sou</p>
+            <h1 class="nome">Vinicius<br /><em>Roberto</em></h1>
+            <p class="cargo">Gestor Operacional e Estudante de TI</p>
+            <p class="bio">
+              Entusiasta da tecnologia e movido pelo aprendizado contínuo. 
+              Dedico-me a explorar o universo do desenvolvimento de software com o objetivo de criar soluções eficientes e transformar ideias em realidade
+            </p>
+
+            <!-- hobbies -->
+            <div class="tags">
+              <span class="tag">🎥 Filmes</span>
+              <span class="tag">🌳 Natureza </span>
+              <span class="tag">📚 Leitura</span>
+              <span class="tag">🎵 Música</span>
+            </div>
+
+            <a href="#portfolio" class="botao">Ver projetos →</a>
+          </div>
+
+          <!-- Avatar -->
+
+          <div class="hero-avatar">
+            <div class="avatar-anel">
+              <div class="avatar-foto">
+                <img src="https://avatars.githubusercontent.com/u/47259178?v=4" />
+              </div>
+            </div>
+
+            <!-- Cartão cidade -->
+            <div class="cartao-local">
+              <span>📍</span> Contagem, Minas Gerais - Brasil
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SEÇÃO 2 — FORMAÇÃO -->
+    <section class="secao secao-alt" id="formacao">
+      <div class="container">
+
+        <div class="secao-header">
+          <span class="num-secao">02</span>
+          <h2>Formação</h2>
+          <p>Educação, cursos e idiomas</p>
+        </div>
+
+        <!-- Educação -->
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div class="tl-ponto"></div>
+            <div class="tl-card">
+              <span class="tl-periodo">2025 – Atual</span>
+              <h3>Análise e Desenvolvimento de Sistemas</h3>
+              <p class="tl-inst">UNINTER – Centro Universitário Internacional</p>
+              <p>Graduação com foco em programação web, banco de dados e metodologias ágeis.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-ponto"></div>
+            <div class="tl-card">
+              <span class="tl-periodo">2016 – 2018 </span>
+              <h3>Técnico de Informática</h3>
+              <p class="tl-inst">SENAI – Contagem, MG</p>
+              <p>Conclusão do técnico com foco em programação,redes e manipulação de dados.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-ponto"></div>
+            <div class="tl-card">
+              <span class="tl-periodo">2015 – 2018 </span>
+              <h3>Ensino Médio</h3>
+              <p class="tl-inst">Escola Estadual – Contagem, MG</p>
+              <p>Conclusão do ensino médio com participação em projetos de desenvolvimento.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Cursos -->
+        <h3 class="subtitulo-bloco">Cursos</h3>
+        <div class="grid-cursos">
+          <div class="curso-card">
+            <span class="curso-icone">💻</span>
+            <h4>HTML, CSS e JavaScript</h4>
+            <p>Coursera / Google · 2020</p>
+          </div>
+          <div class="curso-card">
+            <span class="curso-icone">🐍</span>
+            <h4>Python para ciência de dados</h4>
+            <p> Coursera · 2023</p>
+          </div>
+
+          <div class="curso-card">
+            <span class="curso-icone">🗄️</span>
+            <h4>Banco de Dados SQL</h4>
+            <p>Udemy · 2024</p>
+          </div>
+
+        </div>
+
+
+        <!-- Idiomas -->
+        <h3 class="subtitulo-bloco">Idiomas</h3>
+        <div class="idiomas">
+          <div class="idioma">
+            <div class="idioma-header">
+              <span>🇧🇷 Português</span><span>Nativo</span>
+            </div>
+            <div class="barra"><div class="barra-fill" style="--pct:100%"></div></div>
+          </div>
+          <div class="idioma">
+            <div class="idioma-header">
+              <span>🇺🇸 Inglês</span><span>Avançado - C2</span>
+            </div>
+            <div class="barra"><div class="barra-fill" style="--pct:90%"></div></div>
+          </div>
+          <div class="idioma">
+            <div class="idioma-header">
+              <span>🇪🇸 Espanhol</span><span>Básico</span>
+            </div>
+            <div class="barra"><div class="barra-fill" style="--pct:30%"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SEÇÃO 3 — PORTFÓLIO -->
+    <section class="secao" id="portfolio">
+      <div class="container">
+
+        <div class="secao-header">
+          <span class="num-secao">03</span>
+          <h2>Portfólio</h2>
+          <p>Projetos que desenvolvi até aqui</p>
+        </div>
+
+        <div class="grid-projetos">
+
+          <article class="projeto-card">
+            <div class="projeto-visual pv1">🌐</div>
+            <div class="projeto-corpo">
+              <span class="projeto-tag"></span>
+              <h3>Portfólio Pessoal</h3>
+              <p>Este próprio site — feito com HTML5, CSS3 e JavaScript puro, publicado no GitHub Pages.</p>
+              <div class="projeto-links">
+                <a href="#" class="btn-proj" target="_blank">🔗 Ver site</a>
+                <a href="#" class="btn-proj btn-outline" target="_blank">&lt;/&gt; Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projeto-card">
+            <div class="projeto-visual pv2">🤖</div>
+            <div class="projeto-corpo">
+              <span class="projeto-tag"></span>
+              <h3>Robô para Discord</h3>
+              <p>Bot para automatizar tarefas no Discord, desenvolvido com Node.js </p>
+              <br />
+              <div class="projeto-links">
+                <a href="https://github.com/Setsped/ehmole-bot" class="btn-proj btn-outline" target="_blank">&lt;/&gt; Código</a>
+              </div>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SEÇÃO 4 — CONTATO  -->
+    <section class="secao secao-alt" id="contato">
+      <div class="container">
+
+        <div class="secao-header">
+          <span class="num-secao">04</span>
+          <h2>Contato</h2>
+          <p>Me encontre por aqui:</p>
+        </div>
+
+        <div class="contato-grid">
+
+          <a href="mailto:vinicius-r0@hotmail.com" class="contato-card">
+            <span class="contato-icone">✉️</span>
+            <div>
+              <strong>E-mail</strong>
+              <span>vinicius-r0@hotmail.com</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/Setsped" target="_blank" class="contato-card">
+            <span class="contato-icone">🐙</span>
+            <div>
+              <strong>GitHub</strong>
+              <span>github.com/Setsped</span>
+            </div>
+          </a>
+
+          <a href="https://wa.me/553191396799" target="_blank" class="contato-card">
+            <span class="contato-icone">📱</span>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>31 9139-6799</span>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <div class="container">
+      <p>© <span id="ano"></span> Vinicius Roberto · Feito com HTML, CSS &amp; JS </p>
+      <a href="#sobre" class="volta-topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

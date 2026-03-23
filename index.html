@@ -283,8 +283,37 @@
               <span>31 9139-6799</span>
             </div>
           </a>
-
         </div>
+
+        <!-- Formulário  -->
+        <form class="formulario" id="formulario">
+
+          <div class="form-grupo">
+            <label class="form-label" for="nome">Nome *</label>
+            <input class="form-input" type="text" id="nome" placeholder="Seu nome completo" />
+            <span class="form-erro" id="erroNome"></span>
+          </div>
+
+          <div class="form-grupo">
+            <label class="form-label" for="email">E-mail *</label>
+            <input class="form-input" type="email" id="email" placeholder="exemplo@email.com" />
+            <span class="form-erro" id="erroEmail"></span>
+          </div>
+
+          <div class="form-grupo">
+            <label class="form-label" for="mensagem">Mensagem *</label>
+            <textarea class="form-input form-textarea" id="mensagem" rows="5" placeholder="Escreva sua mensagem..."></textarea>
+            <span class="form-erro" id="erroMensagem"></span>
+          </div>
+
+          <button type="submit" class="botao form-btn" id="btnEnviar">Enviar mensagem ✉️</button>
+
+        </form>
+
+    <!-- Mensagem de sucesso (hidden) -->
+    <div class="form-sucesso escondido" id="formSucesso">
+      ✅ Mensagem enviada com sucesso!
+    </div>
 
       </div>
     </section>
